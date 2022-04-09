@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+body{
+    background-color: #e6faff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+h1{
+    color: darkblue;
+}
+
+h3{
+    color: hsl(285, 100%, 20%);
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: rgb(102, 0, 51);
+    font-family: 'Rubik Moonrocks', Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+#second-p{
+    color: rgb(5, 106, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+}
+
+#box-model{
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    /* margin: 20px; */
+
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    /* margin: 5px 10px 5px 10px; */
+
+    margin: 5px 10px;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form .input-types{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+}
